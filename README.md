@@ -41,16 +41,10 @@ MAX_PRODUCTS = 50        # Max number of product details to extract
 🧰 Requirements
 Install dependencies:
 
-bash
-Copy
-Edit
 pip install requests beautifulsoup4 pandas tqdm openpyxl
 ▶️ Usage
 Clone the repo and run:
 
-bash
-Copy
-Edit
 python amazon_scraper.py
 Results will be saved in amazon_results/ with timestamped filenames.
 
